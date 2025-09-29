@@ -1,0 +1,2 @@
+D:/Deepminds Project/alandi/android/app/.cxx/RelWithDebInfo/3t4f6z4z/x86/CMakeFiles/edit_cache.dir
+D:/Deepminds Project/alandi/android/app/.cxx/RelWithDebInfo/3t4f6z4z/x86/CMakeFiles/rebuild_cache.dir

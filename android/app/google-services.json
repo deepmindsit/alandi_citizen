@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "362174660219",
+    "project_id": "my-alandi",
+    "storage_bucket": "my-alandi.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362174660219:android:ae76d9038cc14914fbacde",
+        "android_client_info": {
+          "package_name": "com.deepmindsit.myalandiNP"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDA0qUbABGTYCH-P2B72Mnoi5O--s9etYQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
