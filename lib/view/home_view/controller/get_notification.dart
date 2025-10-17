@@ -20,7 +20,9 @@ class GetNotification extends GetxController {
 
   void firstLoad() async {
     isFirstLoadRunning.value = true;
+    hasNextPage.value = true;
     try {
+      page.value = 0;
       final prefs = await SharedPreferences.getInstance();
       var user = prefs.getString('user_id');
       final res = await apiClient.post(

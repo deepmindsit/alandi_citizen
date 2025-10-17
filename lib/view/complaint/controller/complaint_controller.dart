@@ -14,7 +14,7 @@ class ComplaintController extends GetxController {
     isFirstLoadRunning.value = true;
     try {
       page.value = 0;
-      // hasNextPage.value = true; // reset pagination
+      hasNextPage.value = true; // reset pagination
       final prefs = await SharedPreferences.getInstance();
       var user = prefs.getString('user_id');
       final res = await apiClient.post(
