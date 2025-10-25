@@ -22,7 +22,7 @@ class ApiClient {
         ? 'demo'
         : prefs.getString('auth_key') ?? 'demo';
     final url = Uri.parse(urlPath);
-    print(url);
+    // print(url);
     final response = await http.post(
       // final response = await httpClient.post(
       url,

@@ -12,8 +12,8 @@ class FirebaseTokenController {
 
   Future<Map<String, dynamic>> updateToken() async {
     String? token = await FirebaseMessaging.instance.getToken();
-    print('token');
-    print(token);
+    // print('token');
+    // print(token);
     final prefs = await SharedPreferences.getInstance();
     var user = prefs.getString('user_id');
     final res = await apiClient.post(

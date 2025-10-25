@@ -11,6 +11,7 @@ class GetSummary extends GetxController {
 
   Future<void> getSummary({required var complaintId}) async {
     isLoading.value = true;
+    summaryList.clear();
     try {
       final prefs = await SharedPreferences.getInstance();
       var user = prefs.getString('user_id');

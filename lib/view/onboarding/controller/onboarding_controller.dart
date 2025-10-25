@@ -100,7 +100,7 @@ class OnboardingController extends GetxController {
         'lang': language.isEnglish.value ? 'en' : 'mr',
       },
     );
-print(res);
+// print(res);
     // final url = Uri.parse(Urls.sendOtp);
     // final response = await http.post(
     //   url,
